@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: "Playfair Display", serif;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #4d4a4a;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.499);
+}
+
+.description{
+    width: 300px;
+    font-size: 20px;
+}
+
+
+.barra{
+    width: 300px;
+    height: 6px;
+    border: 1px solid rgb(93, 90, 90);
+    border-radius: 5px;
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.barra progress{
+    width: 0%;
+    height: 6px;
+    
+}
+
+.ponto{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #c7c2c2;
+    margin-left: -10px;
+}
+
+.tempo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.player{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+.botao-play,.botao-pause{
+    font-size: 50px;
+    margin: 0 25px;
+    cursor: pointer;
+}
+.botao-play:hover{
+    color: rgb(20, 32, 20);
+}
+
+.botao-pause{
+    display: none;
+    cursor: pointer;
+}
+.botao-pause:hover{
+    color: rgb(20, 32, 20);
+}
+
+
+.setas{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.setas:hover{
+    color: rgb(20, 32, 20);
+}
+
+
+
+
+footer{
+    margin-top: 20px;
+    color: #6f8511;
+}
+
